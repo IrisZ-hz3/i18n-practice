@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand" data-i18n="brand.name"></div>
+        <div class="nav-links">
+          <a href="#deals" data-i18n="navigation.deals"></a>
+          <a href="#planner" data-i18n="navigation.planner"></a>
+          <a href="#checkout" data-i18n="navigation.checkout"></a>
+        </div>
+        <label class="locale-picker" for="locale-select">
+          <span data-i18n="navigation.language"></span>
+          <select id="locale-select">
+            <option value="en-US" data-i18n="navigation.locales.en-US"></option>
+            <option value="de-DE" data-i18n="navigation.locales.de-DE"></option>
+            <option value="fr-FR" data-i18n="navigation.locales.fr-FR"></option>
+            <option value="ja-JP" data-i18n="navigation.locales.ja-JP"></option>
+            <option value="zh-CN" data-i18n="navigation.locales.zh-CN"></option>
+            <option value="ar-SA" data-i18n="navigation.locales.ar-SA"></option>
+          </select>
+        </label>
+      </nav>
+
+      <section class="hero-copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+        <h1 data-i18n="hero.heading"></h1>
+        <p class="lede" data-i18n="hero.lede"></p>
+        <div class="hero-actions">
+          <button class="primary-cta" data-i18n="hero.actions.bookNow"></button>
+          <button class="secondary-cta" data-i18n="hero.actions.offerDetails"></button>
+        </div>
+        <div class="status-strip">
+          <span id="spots-left"></span>
+          <span id="offer-ends"></span>
+          <span id="call-us"></span>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section deals-grid" id="deals">
+        <article class="deal-card">
+          <p class="deal-label" data-i18n="deals.cards.sunriseRidge.label"></p>
+          <h2 data-i18n="deals.cards.sunriseRidge.title"></h2>
+          <p class="deal-meta" id="deal-meta-sunrise"></p>
+          <p class="price" data-price="1299.99"></p>
+          <p class="small-copy" id="deal-copy-sunrise"></p>
+          <button class="deal-button" data-i18n="deals.actions.addToCart"></button>
+        </article>
+
+        <article class="deal-card featured">
+          <p class="deal-label" data-i18n="deals.cards.lakeLoop.label"></p>
+          <h2 data-i18n="deals.cards.lakeLoop.title"></h2>
+          <p class="deal-meta" id="deal-meta-lake"></p>
+          <p class="price" data-price="2099.5"></p>
+          <p class="small-copy" id="deal-copy-lake"></p>
+          <button class="deal-button" data-i18n="deals.actions.reservePackage"></button>
+        </article>
+
+        <article class="deal-card">
+          <p class="deal-label" data-i18n="deals.cards.desertStars.label"></p>
+          <h2 data-i18n="deals.cards.desertStars.title"></h2>
+          <p class="deal-meta" id="deal-meta-desert"></p>
+          <p class="price" data-price="699"></p>
+          <p class="small-copy" id="deal-copy-desert"></p>
+          <button class="deal-button" data-i18n="deals.actions.joinTrip"></button>
+        </article>
+      </section>
+
+      <section class="section planner-shell" id="planner">
+        <div class="planner-copy">
+          <p class="section-kicker" data-i18n="planner.kicker"></p>
+          <h2 data-i18n="planner.heading"></h2>
+          <p data-i18n="planner.description"></p>
+        </div>
+
+        <form class="planner-form">
+          <label>
+            <span data-i18n="planner.fields.groupSize"></span>
+            <input id="guest-count" type="number" min="1" max="9" value="2" />
+          </label>
+          <label>
+            <span data-i18n="planner.fields.travelDate"></span>
+            <input id="travel-date" type="date" value="2026-05-14" />
+          </label>
+          <label>
+            <span data-i18n="planner.fields.tripStyle"></span>
+            <select id="trip-style">
+              <option value="easy" data-i18n="planner.styles.easy"></option>
+              <option value="moderate" data-i18n="planner.styles.moderate"></option>
+              <option value="hard" selected data-i18n="planner.styles.hard"></option>
+            </select>
+          </label>
+          <button class="primary-cta planner-button" type="button" id="plan-trip" data-i18n="planner.actions.buildPlan"></button>
+        </form>
+
+        <div class="planner-output">
+          <p class="output-title" data-i18n="planner.output.title"></p>
+          <p id="trip-summary"></p>
+          <p id="trip-note"></p>
+        </div>
+      </section>
+
+      <section class="section checkout-shell" id="checkout">
+        <div class="checkout-copy">
+          <p class="section-kicker" data-i18n="checkout.kicker"></p>
+          <h2 data-i18n="checkout.heading"></h2>
+          <p data-i18n="checkout.description"></p>
+        </div>
+
+        <div class="checkout-card">
+          <div class="summary-row">
+            <span data-i18n="checkout.summary.tripTotal"></span>
+            <strong id="subtotal"></strong>
+          </div>
+          <div class="summary-row">
+            <span data-i18n="checkout.summary.serviceFee"></span>
+            <strong id="service-fee"></strong>
+          </div>
+          <div class="summary-row total">
+            <span id="total-due-label"></span>
+            <strong id="grand-total"></strong>
+          </div>
+
+          <form class="payment-form">
+            <label>
+              <span data-i18n="checkout.form.fullName"></span>
+              <input id="full-name" type="text" />
+            </label>
+            <label>
+              <span data-i18n="checkout.form.billingAddress"></span>
+              <input id="billing-address" type="text" />
+            </label>
+            <label>
+              <span data-i18n="checkout.form.postalCode"></span>
+              <input id="postal-code" type="text" />
+            </label>
+            <button type="button" class="primary-cta pay-button" data-i18n="checkout.form.payNow"></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer.questions"></p>
+      <p data-i18n="footer.copyright"></p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

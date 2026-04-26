@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "TrailNest Outfitters"
+  },
+  "format": {
+    "currency": "JPY",
+    "distanceUnit": "kilometer"
+  },
+  "brand": {
+    "name": "TrailNest Outfitters"
+  },
+  "navigation": {
+    "deals": "お得なプラン",
+    "planner": "旅行プランナー",
+    "checkout": "お支払い",
+    "language": "言語",
+    "locales": {
+      "en-US": "English (US)",
+      "de-DE": "Deutsch",
+      "fr-FR": "Français",
+      "ja-JP": "日本語",
+      "zh-CN": "简体中文",
+      "ar-SA": "العربية"
+    }
+  },
+  "hero": {
+    "eyebrow": "春のマウンテンイベント",
+    "heading": "理想の週末ハイキングを今すぐ予約",
+    "lede": "すべての予約に、ギアのフィッティング、ベースキャンプでの朝食、選択した言語の紙のトレイルガイドが含まれます。",
+    "actions": {
+      "bookNow": "今すぐ予約",
+      "offerDetails": "特典の詳細を見る"
+    },
+    "status": {
+      "spotsLeft": "残り {count} 枠",
+      "offerEnds": "特典終了日 {date}",
+      "callUs": "お電話: {phone}"
+    }
+  },
+  "deals": {
+    "cards": {
+      "sunriseRidge": {
+        "label": "人気No.1",
+        "title": "サンライズ・リッジ・エスケープ",
+        "meta": "{duration}泊 • {location}",
+        "blurb": "{date}までに予約すると、大人1名につき{amount}割引になります。"
+      },
+      "lakeLoop": {
+        "label": "家族に人気",
+        "title": "レイク・ループ・アドベンチャー・パッケージ",
+        "meta": "{duration}日間 • {location}",
+        "blurb": "{age}歳未満のお子さまは食事無料です。朝食は毎日{startTime}から{endTime}まで提供されます。"
+      },
+      "desertStars": {
+        "label": "スタッフおすすめ",
+        "title": "デザート・スターズ・ナイト・トレック",
+        "meta": "{duration}泊 • {location}",
+        "blurb": "望遠鏡レンタルと、選択した言語の記念ポストカードが含まれます。"
+      }
+    },
+    "actions": {
+      "addToCart": "カートに追加",
+      "reservePackage": "パッケージを予約",
+      "joinTrip": "この旅に参加"
+    }
+  },
+  "locations": {
+    "sanFrancisco": "サンフランシスコ",
+    "yosemiteBasecamp": "ヨセミテ・ベースキャンプ",
+    "tahoeSummitLodge": "タホ・サミット・ロッジ",
+    "joshuaTreeCamp": "ジョシュアツリー・キャンプ"
+  },
+  "planner": {
+    "kicker": "旅行プランナー",
+    "heading": "自分だけのルートを作る",
+    "description": "参加人数、出発日、ご希望のサポートレベルを選択してください。",
+    "fields": {
+      "groupSize": "人数",
+      "travelDate": "出発日",
+      "tripStyle": "旅行スタイル"
+    },
+    "styles": {
+      "easy": "やさしい",
+      "moderate": "標準",
+      "hard": "ハード"
+    },
+    "actions": {
+      "buildPlan": "プランを作成"
+    },
+    "output": {
+      "title": "おすすめルート",
+      "summary": "{date}に{count}名で出発します。ガイドレベルは{style}です。",
+      "note": "旅は{city}から始まり、{distance}進んだ先で終了します。"
+    }
+  },
+  "checkout": {
+    "kicker": "かんたん決済",
+    "heading": "予約を完了",
+    "description": "税金はお支払い時に計算されます。旅行書類の配送は料金に含まれています。",
+    "summary": {
+      "tripTotal": "旅行代金",
+      "serviceFee": "サービス料",
+      "totalDue": "{date}にお支払い"
+    },
+    "form": {
+      "fullName": "氏名",
+      "billingAddress": "請求先住所",
+      "postalCode": "郵便番号",
+      "payNow": "今すぐ支払う",
+      "placeholders": {
+        "fullName": "田中 花子",
+        "billingAddress": "東京都千代田区丸の内1-1-1",
+        "postalCode": "100-0001"
+      }
+    }
+  },
+  "footer": {
+    "questions": "ご質問はありますか？ レンジャーに今すぐチャットできます。",
+    "copyright": "Copyright 2026 TrailNest Outfitters. All rights reserved."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "TrailNest Outfitters"
+  },
+  "format": {
+    "currency": "EUR",
+    "distanceUnit": "kilometer"
+  },
+  "brand": {
+    "name": "TrailNest Outfitters"
+  },
+  "navigation": {
+    "deals": "Angebote",
+    "planner": "Reiseplaner",
+    "checkout": "Kasse",
+    "language": "Sprache",
+    "locales": {
+      "en-US": "English (US)",
+      "de-DE": "Deutsch",
+      "fr-FR": "Français",
+      "ja-JP": "日本語",
+      "zh-CN": "简体中文",
+      "ar-SA": "العربية"
+    }
+  },
+  "hero": {
+    "eyebrow": "Fruehlingsaktion in den Bergen",
+    "heading": "Buche noch heute dein perfektes Wanderwochenende",
+    "lede": "Jede Buchung enthaelt eine Ausruestungsanprobe, Fruehstueck im Basislager und einen gedruckten Wanderfuehrer in deiner gewaehlten Sprache.",
+    "actions": {
+      "bookNow": "Jetzt buchen",
+      "offerDetails": "Angebotsdetails ansehen"
+    },
+    "status": {
+      "spotsLeft": "Nur noch {count} Plaetze frei",
+      "offerEnds": "Angebot endet am {date}",
+      "callUs": "Ruf uns an: {phone}"
+    }
+  },
+  "deals": {
+    "cards": {
+      "sunriseRidge": {
+        "label": "Am beliebtesten",
+        "title": "Sonnenaufgang am Bergruecken",
+        "meta": "{duration} Naechte • {location}",
+        "blurb": "Buche bis zum {date} und spare {amount} pro Erwachsenenticket."
+      },
+      "lakeLoop": {
+        "label": "Familienfavorit",
+        "title": "Abenteuerpaket Seerunde",
+        "meta": "{duration} Tage • {location}",
+        "blurb": "Kinder unter {age} essen kostenlos. Das Fruehstueck wird taeglich von {startTime} bis {endTime} serviert."
+      },
+      "desertStars": {
+        "label": "Empfehlung des Teams",
+        "title": "Nachtwanderung unter Wuestensternen",
+        "meta": "{duration} Nacht • {location}",
+        "blurb": "Enthaelt Teleskopverleih und eine Souvenir-Postkarte in deiner gewaehlten Sprache."
+      }
+    },
+    "actions": {
+      "addToCart": "In den Warenkorb",
+      "reservePackage": "Paket reservieren",
+      "joinTrip": "Diese Reise buchen"
+    }
+  },
+  "locations": {
+    "sanFrancisco": "San Francisco",
+    "yosemiteBasecamp": "Yosemite Basecamp",
+    "tahoeSummitLodge": "Tahoe Summit Lodge",
+    "joshuaTreeCamp": "Joshua Tree Camp"
+  },
+  "planner": {
+    "kicker": "Reiseplaner",
+    "heading": "Stelle deine individuelle Route zusammen",
+    "description": "Waehle die Anzahl der Wandernden, dein Reisedatum und dein bevorzugtes Betreuungsniveau.",
+    "fields": {
+      "groupSize": "Gruppengroesse",
+      "travelDate": "Reisedatum",
+      "tripStyle": "Reisestil"
+    },
+    "styles": {
+      "easy": "Leicht",
+      "moderate": "Mittel",
+      "hard": "Anspruchsvoll"
+    },
+    "actions": {
+      "buildPlan": "Reiseplan erstellen"
+    },
+    "output": {
+      "title": "Vorgeschlagene Route",
+      "summary": "{count} Wandernde starten am {date}. Dein Guide-Level ist {style}.",
+      "note": "Deine Reise beginnt in {city} und endet {distance} spaeter."
+    }
+  },
+  "checkout": {
+    "kicker": "Schneller Checkout",
+    "heading": "Schliesse deine Buchung ab",
+    "description": "Steuern werden im Checkout berechnet. Die Zustellung der Reisedokumente ist inbegriffen.",
+    "summary": {
+      "tripTotal": "Reisesumme",
+      "serviceFee": "Servicegebuehr",
+      "totalDue": "Faellig am {date}"
+    },
+    "form": {
+      "fullName": "Vollstaendiger Name",
+      "billingAddress": "Rechnungsadresse",
+      "postalCode": "Postleitzahl",
+      "payNow": "Jetzt bezahlen",
+      "placeholders": {
+        "fullName": "Mia Schneider",
+        "billingAddress": "Marktstrasse 1250",
+        "postalCode": "10115"
+      }
+    }
+  },
+  "footer": {
+    "questions": "Fragen? Chatte jetzt mit einer Rangerin oder einem Ranger.",
+    "copyright": "Copyright 2026 TrailNest Outfitters. Alle Rechte vorbehalten."
+  }
+}

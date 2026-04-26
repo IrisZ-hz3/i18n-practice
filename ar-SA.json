@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "TrailNest Outfitters"
+  },
+  "format": {
+    "currency": "SAR",
+    "distanceUnit": "kilometer"
+  },
+  "brand": {
+    "name": "TrailNest Outfitters"
+  },
+  "navigation": {
+    "deals": "العروض",
+    "planner": "مخطط الرحلة",
+    "checkout": "الدفع",
+    "language": "اللغة",
+    "locales": {
+      "en-US": "English (US)",
+      "de-DE": "Deutsch",
+      "fr-FR": "Français",
+      "ja-JP": "日本語",
+      "zh-CN": "简体中文",
+      "ar-SA": "العربية"
+    }
+  },
+  "hero": {
+    "eyebrow": "فعالية الربيع الجبلية",
+    "heading": "احجز رحلة المشي المثالية لعطلة نهاية الأسبوع اليوم",
+    "lede": "يشمل كل حجز تجربة تجهيز المعدات، وفطور المخيم الأساسي، ودليلاً مطبوعاً للمسار بلغتك المختارة.",
+    "actions": {
+      "bookNow": "احجز الآن",
+      "offerDetails": "عرض تفاصيل العرض"
+    },
+    "status": {
+      "spotsLeft": "تبقت {count} أماكن فقط",
+      "offerEnds": "ينتهي العرض في {date}",
+      "callUs": "اتصل بنا: {phone}"
+    }
+  },
+  "deals": {
+    "cards": {
+      "sunriseRidge": {
+        "label": "الأكثر طلباً",
+        "title": "ملاذ حافة الشروق",
+        "meta": "{duration} ليالٍ • {location}",
+        "blurb": "احجز قبل {date} ووفر {amount} على كل تذكرة للبالغين."
+      },
+      "lakeLoop": {
+        "label": "المفضل للعائلات",
+        "title": "باقة مغامرة مسار البحيرة",
+        "meta": "{duration} أيام • {location}",
+        "blurb": "الأطفال دون {age} سنة يتناولون الطعام مجاناً. يُقدَّم الإفطار يومياً من {startTime} إلى {endTime}."
+      },
+      "desertStars": {
+        "label": "اختيار الفريق",
+        "title": "رحلة ليلية تحت نجوم الصحراء",
+        "meta": "{duration} ليلة • {location}",
+        "blurb": "يشمل استئجار التلسكوب وبطاقة تذكارية بلغتك المختارة."
+      }
+    },
+    "actions": {
+      "addToCart": "أضف إلى السلة",
+      "reservePackage": "احجز الباقة",
+      "joinTrip": "انضم إلى هذه الرحلة"
+    }
+  },
+  "locations": {
+    "sanFrancisco": "سان فرانسيسكو",
+    "yosemiteBasecamp": "معسكر يوسيميتي الأساسي",
+    "tahoeSummitLodge": "نزل قمة تاهو",
+    "joshuaTreeCamp": "مخيم جوشوا تري"
+  },
+  "planner": {
+    "kicker": "مخطط الرحلة",
+    "heading": "ابنِ مسارك المخصص",
+    "description": "اختر عدد المشاركين، وتاريخ السفر، ومستوى الدعم المفضل لديك.",
+    "fields": {
+      "groupSize": "حجم المجموعة",
+      "travelDate": "تاريخ السفر",
+      "tripStyle": "نمط الرحلة"
+    },
+    "styles": {
+      "easy": "سهل",
+      "moderate": "متوسط",
+      "hard": "صعب"
+    },
+    "actions": {
+      "buildPlan": "ابنِ خطتي"
+    },
+    "output": {
+      "title": "المسار المقترح",
+      "summary": "سينطلق {count} من المتنزهين في {date}. مستوى الدليل هو {style}.",
+      "note": "تبدأ رحلتك من {city} وتنتهي بعد {distance}."
+    }
+  },
+  "checkout": {
+    "kicker": "دفع سريع",
+    "heading": "أكمل حجزك",
+    "description": "تُحتسب الضرائب عند الدفع. تسليم مستندات الرحلة مشمول.",
+    "summary": {
+      "tripTotal": "إجمالي الرحلة",
+      "serviceFee": "رسوم الخدمة",
+      "totalDue": "المبلغ المستحق في {date}"
+    },
+    "form": {
+      "fullName": "الاسم الكامل",
+      "billingAddress": "عنوان الفوترة",
+      "postalCode": "الرمز البريدي",
+      "payNow": "ادفع الآن",
+      "placeholders": {
+        "fullName": "سارة العتيبي",
+        "billingAddress": "طريق الملك فهد 1250",
+        "postalCode": "11564"
+      }
+    }
+  },
+  "footer": {
+    "questions": "هل لديك أسئلة؟ تحدث الآن مع أحد المرشدين.",
+    "copyright": "حقوق النشر 2026 TrailNest Outfitters. جميع الحقوق محفوظة."
+  }
+}

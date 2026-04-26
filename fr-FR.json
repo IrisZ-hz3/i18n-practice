@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "title": "TrailNest Outfitters"
+  },
+  "format": {
+    "currency": "EUR",
+    "distanceUnit": "kilometer"
+  },
+  "brand": {
+    "name": "TrailNest Outfitters"
+  },
+  "navigation": {
+    "deals": "Offres",
+    "planner": "Planificateur",
+    "checkout": "Paiement",
+    "language": "Langue",
+    "locales": {
+      "en-US": "English (US)",
+      "de-DE": "Deutsch",
+      "fr-FR": "Français",
+      "ja-JP": "日本語",
+      "zh-CN": "简体中文",
+      "ar-SA": "العربية"
+    }
+  },
+  "hero": {
+    "eyebrow": "Evenement printanier en montagne",
+    "heading": "Reservez votre randonnee de reve pour ce week-end",
+    "lede": "Chaque reservation comprend un essayage d'equipement, un petit-dejeuner au camp de base et un guide imprime dans la langue choisie.",
+    "actions": {
+      "bookNow": "Reserver",
+      "offerDetails": "Voir les details de l'offre"
+    },
+    "status": {
+      "spotsLeft": "Plus que {count} places disponibles",
+      "offerEnds": "Offre valable jusqu'au {date}",
+      "callUs": "Appelez-nous : {phone}"
+    }
+  },
+  "deals": {
+    "cards": {
+      "sunriseRidge": {
+        "label": "La plus populaire",
+        "title": "Escapade sur la crete du lever du soleil",
+        "meta": "{duration} nuits • {location}",
+        "blurb": "Reservez avant le {date} et economisez {amount} par billet adulte."
+      },
+      "lakeLoop": {
+        "label": "Favorite des familles",
+        "title": "Forfait aventure de la boucle du lac",
+        "meta": "{duration} jours • {location}",
+        "blurb": "Les enfants de moins de {age} ans mangent gratuitement. Le petit-dejeuner est servi chaque jour de {startTime} a {endTime}."
+      },
+      "desertStars": {
+        "label": "Choix de l'equipe",
+        "title": "Randonnee nocturne sous les etoiles du desert",
+        "meta": "{duration} nuit • {location}",
+        "blurb": "Comprend la location d'un telescope et une carte souvenir dans la langue choisie."
+      }
+    },
+    "actions": {
+      "addToCart": "Ajouter au panier",
+      "reservePackage": "Reserver le forfait",
+      "joinTrip": "Participer a ce voyage"
+    }
+  },
+  "locations": {
+    "sanFrancisco": "San Francisco",
+    "yosemiteBasecamp": "Camp de base de Yosemite",
+    "tahoeSummitLodge": "Refuge du sommet de Tahoe",
+    "joshuaTreeCamp": "Camp de Joshua Tree"
+  },
+  "planner": {
+    "kicker": "Planificateur",
+    "heading": "Creez votre itineraire personnalise",
+    "description": "Choisissez le nombre de randonneurs, votre date de voyage et le niveau d'accompagnement souhaite.",
+    "fields": {
+      "groupSize": "Taille du groupe",
+      "travelDate": "Date du voyage",
+      "tripStyle": "Style du voyage"
+    },
+    "styles": {
+      "easy": "Facile",
+      "moderate": "Modere",
+      "hard": "Difficile"
+    },
+    "actions": {
+      "buildPlan": "Creer mon plan"
+    },
+    "output": {
+      "title": "Itineraire suggere",
+      "summary": "{count} randonneurs partent le {date}. Votre niveau d'accompagnement est {style}.",
+      "note": "Votre voyage commence a {city} et se termine {distance} plus loin."
+    }
+  },
+  "checkout": {
+    "kicker": "Paiement rapide",
+    "heading": "Finalisez votre reservation",
+    "description": "Les taxes sont calculees au moment du paiement. La livraison des documents de voyage est incluse.",
+    "summary": {
+      "tripTotal": "Total du voyage",
+      "serviceFee": "Frais de service",
+      "totalDue": "Total a payer le {date}"
+    },
+    "form": {
+      "fullName": "Nom complet",
+      "billingAddress": "Adresse de facturation",
+      "postalCode": "Code postal",
+      "payNow": "Payer maintenant",
+      "placeholders": {
+        "fullName": "Camille Martin",
+        "billingAddress": "12 rue du Marche",
+        "postalCode": "75001"
+      }
+    }
+  },
+  "footer": {
+    "questions": "Des questions ? Discutez maintenant avec un guide.",
+    "copyright": "Copyright 2026 TrailNest Outfitters. Tous droits reserves."
+  }
+}
